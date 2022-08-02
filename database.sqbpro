@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/josem/OneDrive/Escritorio/sqlite/database.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="150"/><column_width id="3" width="1998"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,7:mainALUMNOS"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">
+-- Insertar datos a la tabla Productos 
+INSERT INTO PRODUCTOS VALUES (1,'PC', 1500.06)
+INSERT INTO PRODUCTOS VALUES (2,'LAPTOP', 15000.7)
+INSERT INTO PRODUCTOS VALUES (3,'MONITOR', 300.08)
+INSERT INTO PRODUCTOS VALUES (4,'TECLADO', 90.09)
+INSERT INTO PRODUCTOS VALUES (5,'MICROFONO', 140.10)
+ 
+-- Insertar datos a la tabla cliente  
+INSERT INTO CLIENTES VALUES (1,'ALEX');
+INSERT INTO CLIENTES VALUES (2,'JUAN')
+ 
+-- Insertar datos a la tabla Nota_venta 
+INSERT INTO NOTA_VENTA VALUES (4,NULL,1,1);
+INSERT INTO NOTA_VENTA VALUES (1,NULL,2,2)
+ </sql><sql name="SQL 3">DROP TABLE NOTA_VENTA;
+DROP TABLE PRODUCTOS</sql><current_tab id="0"/></tab_sql></sqlb_project>
